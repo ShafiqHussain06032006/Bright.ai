@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='flex items-start justify-between py-4 px-6 sm:px-10 lg:px-20'>
         <img 
             onClick={() => navigate('/')} 
-            src={assets.logo1} 
+            src={assets.logo1 }
             alt="" 
             className='w-90 sm:w-88 cursor-pointer'
         />
